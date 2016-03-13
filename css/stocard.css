@@ -1,0 +1,51 @@
+body{
+    background-image: url('../images/h.png');
+    background-repeat: no-repeat;
+    background-position: 50% -10%;
+    background-size: 600px 150px;
+    font-family: sans-serif;
+}
+nav{
+    /*position: relative;
+    top: 200px;
+    left: 450px;*/
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+    border-bottom: 2px steelblue solid;
+    border-top: 2px steelblue solid;
+    width: 1000px;
+}
+a{
+    padding: 10px 40px 10px 40px;
+    font-size: 24px;
+    font-weight: bold;  
+    margin-left: 40px;
+    margin-right: 40px;
+    opacity: 0.3;
+    text-decoration: none;
+    color: black;
+}
+a::before{
+    color: black;
+}
+a::after{
+    color: black;
+}
+a:hover{
+    opacity: 1;
+    /*background-color: lightgrey;*/
+}
+div{
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(255, 0, 80, 0.4);
+    width: 70px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
