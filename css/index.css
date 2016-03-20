@@ -1,0 +1,117 @@
+body{
+    background-image: url('../images/h.png');
+    background-repeat: no-repeat;
+    background-position: 50% -10%;
+    background-size: 700px 150px;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    height: 100%;
+}
+nav{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+}
+.tabs input[type=radio]{
+    position: absolute;
+    top: -9999px;
+    left: 0;
+}
+.tabs{
+    float: none;
+    list-style: none;
+    margin: 75px auto;
+    width: 1500px;
+}
+.tabs li{
+    float: left;
+}
+.tabs label{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 2px 2px 0 0;
+    color: black;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: sans-serif;
+    background: lightgray;
+    border: 2px solid black;
+    cursor: pointer;
+    position: relative;
+    top: 3px;
+    width: 250px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.tabs label:hover {
+     background: #6f6f6f;
+     color: white;
+     /*top: 0;*/
+}
+[id^=tab]:checked + label {
+     background: black;
+     color: hotpink;
+}
+[id^=tab]:checked ~ [id^=tab-content] {
+     display: block;
+}
+.tab-content{
+        z-index: 2;
+        display: none;
+        text-align: left;
+        width: 100%;
+        font-size: 18px;
+        line-height: 140%;
+        padding-top: 10px;
+        background: white;
+        padding: 15px;
+        color: black;
+        position: absolute;
+        top: 130px;
+        left: 0;
+        box-sizing: border-box;
+        -webkit-animation-duration: 0.5s;
+        -o-animation-duration: 0.5s;
+        -moz-animation-duration: 0.5s;
+        animation-duration: 0.5s;
+        text-indent: 30px;
+}
+text{
+        font-size: 14px;
+        font-family: sans-serif;
+}
+#chart1{
+        display: block;
+        position: absolute;
+        left: 2%;
+        height: 500px;
+        width: 600px;
+}
+#chart2{
+        display: block;
+        float: left;
+        height: 500px !important;
+        width: 500px !important;
+        position: absolute;
+        left: 2%;
+}
+#tab-content2 p{
+    background-color: #7ada3a;
+    color: black;
+    width: 1400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 50px;
+    opacity: 0.7;
+}
+#tab-content2 p:hover{
+    opacity: 1;
+    font-weight: bolder;
+    background-color: #7ada3a;
+    color: white;
+}
