@@ -1,14 +1,57 @@
 <!doctype HTML>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
         <title>Dashboard</title>
-        <link rel="stylesheet" href="css/stocard.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link href="nvd3/build/nv.d3.css" rel="stylesheet" type="text/css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+        <script src="nvd3/build/nv.d3.js"></script>
     </head>
     <body>
         <nav>
-                
+        <ul class="tabs">
+            <li>
+                <input type="radio" checked id="tab1" name="tabs">
+                <label for="tab1">Summary</label>
+                <div id="tab-content1" class="tab-content animated fadeIn">
+                    <p>Total Number of Tweets, Tags, Users and Languages are represented by following Graph.</p>
+                    <svg id="chart1"></svg>
+                </div>
+            </li>  
+            <li>
+                <input type="radio" id="tab2" name="tabs">
+                <label for="tab2">Tweets</label>
+                <div id="tab-content2" class="tab-content">
+                    <p>Tweet #1</p>
+                    <p>Tweet #2</p>
+                    <p>Tweet #3</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="tab3" name="tabs">
+                <label for="tab3">Tags</label>
+                <div id="tab-content3" class="tab-content with-3d-shadow with-transitions">
+                    <p>Following graph shows Top 5 Tags.</p>
+                    <svg id="chart2" class="mypiechart"></svg>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="tab4" name="tabs">
+                <label for="tab4">Users</label>
+                <div id="tab-content4" class="tab-content">
+                    <p>Top 5 Active Users.</p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="tab5" name="tabs">
+                <label for="tab5">Languages</label>
+                <div id="tab-content" class="tab-content">
+                    <p>Top 5 Languages in Tweets.</p>
+                </div>
+            </li>          
+        </ul>
         </nav>
-        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-        <script src="JS/tweetsData.js"></script>
+        <script src="JS/index.js"></script>
     </body>
 </html>
