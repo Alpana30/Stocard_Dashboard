@@ -77,7 +77,6 @@ nav{
         -o-animation-duration: 0.5s;
         -moz-animation-duration: 0.5s;
         animation-duration: 0.5s;
-        text-indent: 30px;
 }
 text{
         font-size: 14px;
@@ -98,20 +97,39 @@ text{
         position: absolute;
         left: 2%;
 }
+#chart3{
+        display: block;
+        float: left;
+        height: 500px !important;
+        width: 500px !important;
+        position: absolute;
+        left: 2%;
+}
+#chart4{
+        display: block;
+        float: left;
+        height: 500px !important;
+        width: 500px !important;
+        position: absolute;
+        left: 2%;
+}
+#tab-content1 p, #tab-content3 p, #tab-content4 p, #tab-content5 p, #tab-content2 section{
+    text-indent: 30px;
+} 
 #tab-content2 p{
-    background-color: #7ada3a;
+    background-color: #2a92be;
     color: black;
     width: 1400px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-left: 50px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 #tab-content2 p:hover{
     opacity: 1;
     font-weight: bolder;
-    background-color: #7ada3a;
+    background-color: #2a92be;
     color: white;
 }
