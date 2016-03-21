@@ -1,3 +1,3 @@
-First run http-server from the Stocard_Dashboard folder.
-Then use http://127.0.0.1:8080 in browser.
+Run server.js file from JS folder using command node server.js
+Then use http://localhost:3000/ in browser.
 Please see Demo.png file.
