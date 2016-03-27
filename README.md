@@ -1,4 +1,4 @@
 #Following are the necessary instructions:
-Run **server.js** file from JS folder using command node server.js
-Then use *http://localhost:3000/* in browser.
-Please see **Demo.png** file.
+1.Run **server.js** file from JS folder using command node server.js
+2.Then use *http://localhost:3000/* in browser.
+3.Please see **Demo.png** file.
