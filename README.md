@@ -5,5 +5,5 @@
 4. Frontend, Backend Details: 
   * **Frontend**: HTML5, CSS3, nvD3.js (for graphs)
   * **Backend**: Express.js, Node.js
-  * **Datasource**: tweets.json file in **public** folder
+  * **Datasource**: *tweets.json* file in **public** folder
 5. For Node Modules Dependencies please see **package.json** file.
